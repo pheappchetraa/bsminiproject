@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Mini Project</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top">
+        <div class="container">
+            <a href="#" class="navbar-brand">Pheap Chetra</a>
+
+            <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#mainNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+
+            <a class="btn btn-outline-light btn-sm">Hire Me</a>
+        </div>
+    </nav>
+
+    <section class="w-100 bg-dark text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Sopheap Sochetra</h1>
+            <p class="lead">Full Stack Developer in Training</p>
+            <a href="#" class="btn btn-primary btn-lg">See My Work</a>
+        </div>        
+    </section>
+
+    <section class="w-100 bg-dark text-white text-center">
+        <div class="container d-flex gap-2 flex-column">
+            <h1 class="display-5 fw-bold">My Skills</h1>
+            <div class="card shadow-sm h-100">
+                <div class="card-header d-flex justify-content-between align-items-center fw-bold">
+                    HTML, CSS
+                    <span class="badge bg-warning text-dark">Intermediate</span>
+                </div>
+
+                <div class="card-body">
+                    <p class="card-text">Build several projects with these foundation language.</p>
+                </div>
+            </div>
+
+            <div class="card shadow-sm h-100">
+                <div class="card-header d-flex justify-content-between align-items-center fw-bold">
+                    BOOTSTRAP
+                    <span class="badge bg-success text-dark">Beginner</span>
+                </div>
+
+                <div class="card-body">
+                    <p class="card-text">Responsive layouts, components, and utilities.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="w-100 bg-dark text-white text-center">
+        <h1 class="display-5 fw-bold">Projects</h1>
+        <div class="alert alert-info alert-dismissible fw-bold">More projects coming soon!
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        </div>
+
+        <div class="row g-3">
+            <div class="col-12 col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="fw-bold card-header">Zando Clone Website</h3>
+                        <p class="card-text">I had made a first page of Zando Clone Website with HTML AND CSS.</p>
+                        <a href="#" class="btn btn-primary btn-md">View</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="fw-bold card-header">Mini Project Of Bootstrap</h3>
+                        <p class="card-text">I had built a mini project for the first time with Bootstrap.</p>
+                        <a href="#" class="btn btn-primary btn-md">View</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="w-100 bg-dark text-white text-center">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8 col-lg-6">
+                    <form action="">
+                        <h2 class="text-center">Contact Us</h2>
+
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Full Name:</label>
+                            <input type="text" id="name" class="form-control" placeholder="Enter Your Full Name">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="example@gmail.com">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" name="message" id="message" rows="4"></textarea>
+                        </div>
+                        
+                        <button 
+                            type="button"
+                            class="btn btn-primary" 
+                            data-bs-toggle="modal" 
+                            data-bs-target="#confirmModal"
+                            >
+                            Send Message
+                        </button>
+                    </form>               
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal fade" id="confirmModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Message Sent!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <div class="modal-body">
+                    <p>I will contact you by the time and schedule.</p>
+                </div>
+
+                <div class="modal-footer">
+                    <button 
+                    type="button" 
+                    class="btn btn-success" 
+                    data-bs-dismiss="modal"
+                    >
+                    Close
+                </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-3">
+        Sopheap Sochetra © 2025
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
